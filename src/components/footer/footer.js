@@ -8,7 +8,7 @@ function Footer() {
         <footer>
           <div className="wave-footer"></div>
           <div className="footer-style">
-            <p>© 2023 eXchangeMate</p>
+            <p>© 2023 Ayana Douglas</p>
           </div>
         </footer>
       </footer>

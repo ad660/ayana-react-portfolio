@@ -91,3 +91,7 @@ html {
 
   /* Style for hover  */
   
+  .linkedin {
+    text-decoration: none;
+    color: #fff;
+  }
