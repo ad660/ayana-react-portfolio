@@ -1,0 +1,37 @@
+.project-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 50px 35px;
+    
+}
+
+.project {
+    border: 5px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 25%;
+
+}
+
+.flex-img {
+   text-align: center;
+}
+
+.button-style {
+    background-color: #9d0208;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 5px;
+    transition: background-color 300ms;
+}
+
+.button-style:hover {
+    background-color: #6e0105;
+}
