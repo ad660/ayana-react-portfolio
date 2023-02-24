@@ -1,13 +1,13 @@
 import React from "react";
 import "./landing.css";
+import Hero from "../../components/hero/hero"
 
 
 
-function Project({ id, title, description, image, link }) {
+function Project({ id, title, description, link }) {
     
   return (
     <div className="project">
-      <img className="flex-img" src={image} alt={title} />
       <h2>{title}</h2>
       <p>{description}</p>
       <a className="button-style" href={link}>Go to project</a>
@@ -29,52 +29,47 @@ function Landing() {
   const projects = [
     {
       id: 1,
-      title: "Project 1",
-      description: "This is the description for Project 1",
-      image: "https://example.com/project1.jpg",
-      link: "#"
+      title: "eXchangeMate",
+      description: "Forex Trading website to compare currencies against trading volume, opening and closing and other factors",
+      link: "https://ad660.github.io/TastyByte/"
     },
     {
       id: 2,
-      title: "Project 2",
-      description: "This is the description for Project 2",
-      image: "https://example.com/project2.jpg",
-      link: "#"
+      title: "First portfolio challenge",
+      description: "This is my portfolio using HTML and CSS",
+      link: "https://github.com/ad660/Edx-Portfolio-Challenge"
     },
     {
       id: 3,
-      title: "Project 3",
-      description: "This is the description for Project 3",
-      image: "https://example.com/project3.jpg",
-      link: "#"
+      title: "Bootstrap portfolio",
+      description: "This is my portfolio using Bootstrap",
+      link: "https://github.com/ad660/bootstrap_challenge"
     },
     {
-        id: 3,
-        title: "Project 4",
-        description: "This is the description for Project 3",
-        image: "https://example.com/project3.jpg",
-        link: "#"
+        id: 4,
+        title: "Password generator app",
+        description: "An app to generate a password with special characters, numbers and lower/uppercase characters",
+        link: "https://github.com/ad660/Readme-Generator"
       },
       {
-        id: 3,
-        title: "Project 5",
-        description: "This is the description for Project 3",
-        image: "https://example.com/project3.jpg",
-        link: "#"
+        id: 5,
+        title: "TastyByte",
+        description: "A Recipe App for when you're feeling peckish",
+        link: "https://ad660.github.io/TastyByte/"
       },
       {
-        id: 3,
-        title: "Project 6",
-        description: "This is the description for Project 3",
-        image: "https://example.com/project3.jpg",
-        link: "#"
+        id: 6,
+        title: "Quiz challenge",
+        description: "Created a short quiz using HTML, CSS and Javascript",
+        link: "https://github.com/ad660/Quiz-challenge"
       },
   ];
 
   return (
     <>
+    <Hero />
       <div className="app">
-        <h1>See some of my projects below here</h1>
+        <h1 className="text-center">See some of my projects below</h1>
         <ProjectList projects={projects} />
       </div>
     </>

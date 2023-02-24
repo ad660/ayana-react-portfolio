@@ -1,0 +1,81 @@
+
+  
+  
+#contact {
+    text-align: center;
+}
+
+  
+  .contact-form {
+    width: 500px;
+    background: #ffffff;
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 15px auto ;
+    padding: 20px 15px;
+    border-radius: 8px;
+  }
+  
+  
+  /* Text area for contact form  */
+  
+  .contact-form input[type="text"],
+  .contact-form textarea {
+    background: rgba(33, 158, 188, 0.1);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #f3f3f3;
+    color: #0e141a;
+    -webkit-box-shadow: 0 1px 0 rgba(2, 48, 71, 0.04) inset;
+    box-shadow: 0 1px 0 rgba(2, 48, 71, 0.04) inset;
+    margin-bottom: 30px;
+    transition: background-color 300ms;
+  }
+  
+  /* Hover effects for contact form inputs */
+  
+  .contact-form input[type="text"]:focus,
+  .contact-form input[type="email"]:focus,
+  .contact-form textarea:focus {
+    background-color: #dbdada;
+  }
+  
+  .contact-form input[type="submit"],
+  .contact-form input[type="button"] {
+    padding: 15px 55px;
+    font-size: 17px;
+    background-color: #219EBC;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 400ms;
+  }
+  
+  /* Hover effects for button*/
+  
+  .contact-form input[type="submit"]:hover,
+  .contact-form input[type="button"]:hover {
+    background: #1a85a0;
+  }
+  
+  .contact-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* #8ECAE6
+  #219EBC
+  #023047
+  #FFB703
+  #FB8500 */
+  
